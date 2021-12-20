@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<input type="text" id="dauvao">
+<input type="button" onclick="click1()" value="Click">
+<input type="button" onclick="click2()" value="Square">
+<input type="button" onclick="click3()" value="Total">
+<input type="button" onclick="check()" value="Check">
+<input type="button" onclick="chiahetcho3()" value="Chia3">
+<p>Kết Quả: <span id="kq"></span></p>
+<script>
+
+    // in gia tri tư o input
+
+    // function click1(){
+    //     let a = document.getElementById('dauvao').value;
+    //     document.getElementById('kq').innerHTML = a
+    // }
+
+
+    // binh phuong 1 so
+
+    // function click2(){
+    //     let a = document.getElementById('dauvao').value;
+    //     let squr = Math.pow(a,2)
+    //     document.getElementById('kq').innerHTML = squr
+    // }
+
+
+    // Tong cac so tu 0 -> n
+
+    // function click3() {
+    //     let a = document.getElementById("dauvao").value;
+    //     let sum = 0;
+    //     for (i = 1; i <= a; i++) {
+    //         sum += i;
+    //         document.getElementById("kq").innerHTML = sum;
+    //     }
+    // }
+
+
+    // check chan le
+
+    // function check(){
+    //     let a = document.getElementById("dauvao").value;
+    //     if ( a % 2 == 0){
+    //         document.getElementById("kq").innerHTML = "Chẵn"
+    //     }else {
+    //         document.getElementById("kq").innerHTML = "Lẻ"
+    //     }
+    // }
+
+
+    // kiem tra chia het cho 3
+
+    // function chiahetcho3() {
+    //     let a = document.getElementById("dauvao").value;
+    //     let sum = 0
+    //     for (i = 1; i <= a; i++) {
+    //         if (i % 3 == 0) {
+    //             sum += i
+    //         }
+    //         document.getElementById("kq").innerHTML = sum
+    //     }
+    // }
+
+
+    //    Tao mang va thao tac voi mang
+    // let b = [ 5,2,3,7,8,6,9,15]
+    // Tinh tong phan tu co trong mang
+    // let Sum = 0
+    // for ( i = 0 ; i < b.length ; i ++){
+    //     Sum += b[i]
+    // }
+    // document.getElementById("kq").innerHTML = "Tong cac so trong mang la : " + Sum
+
+
+
+    //    Tinh tong cac phan tu chan
+    // let Sum = 0
+    // for ( i = 0 ; i < b.length ; i ++){
+    //     if(b[i] % 2 == 0){
+    //         Sum += b[i];
+    //     }
+    //     document.getElementById("kq").innerHTML = " Tong cac so chan la : " + Sum
+    // }
+
+
+     //    Tinh tich cac phan tu trong mang
+    // let tich = 1
+    // for ( i = 0 ; i < b.length ; i ++){
+    //     tich *= b[i];
+    // }
+    // document.getElementById("kq").innerHTML = " Tich cac phan tu trong mang la : " + tich;
+
+
+     //    Tim Max cua mang
+    // let max = b[0]
+    // for ( i = 0 ; i < b.length; i ++){
+    //     if(b[i] > max){
+    //         max = b[i]
+    //     }
+    //     document.getElementById('kq').innerHTML = " So lon nhat trong mang la : " + max
+    // }
+
+
+     //    Tim vi tri cua Max
+    // let max = b[0]
+    // let index = 0
+    // for ( i = 0 ; i < b.length; i ++){
+    //     if(b[i] > max){
+    //         max = b[i]
+    //         index = i
+    //     }
+    //     document.getElementById('kq').innerHTML = " So lon nhat trong mang la : " + max + " tai vi tri : " + index;
+    // }
+
+</script>
+
+</body>
+</html>
